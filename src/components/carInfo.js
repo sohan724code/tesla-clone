@@ -1,4 +1,7 @@
-[
+import React from 'react'
+
+function carInfo() {
+    return [
     {
         "id": 0,
         "title": "Model S",
@@ -39,4 +42,9 @@
         "topSpeed": "190",
         "peakPower": "1,040"
     }
-]
+];
+
+
+}
+
+export default carInfo;
